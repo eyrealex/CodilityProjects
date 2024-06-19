@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34902.65
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "iterations", "iterations", "{843F2047-6FCE-44C5-9C17-1B57EFC32A02}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "time-complexity", "time-complexity", "{9BDA86D3-F755-4218-826B-DBB2816CB1AC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "arrays", "arrays", "{1C9E4425-592C-4F0F-8439-F279A81BFC0C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CyclicRotation", "arrays\CyclicRotation\CyclicRotation.csproj", "{2826F3D3-D478-49BB-AA0A-74A45E79B756}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OddOccurrencesInArray", "arrays\OddOccurrencesInArray\OddOccurrencesInArray.csproj", "{F191BFDF-DBB7-4005-B5C5-FDF23503F2B5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinaryGap", "iterations\BinaryGap\BinaryGap.csproj", "{09FAE419-5C75-4086-A2D2-450FFE8F127A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FrogJmp", "time-complexity\FrogJmp\FrogJmp.csproj", "{4CE52671-E809-47D9-A67F-90387FAB0E6C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2826F3D3-D478-49BB-AA0A-74A45E79B756}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2826F3D3-D478-49BB-AA0A-74A45E79B756}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2826F3D3-D478-49BB-AA0A-74A45E79B756}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2826F3D3-D478-49BB-AA0A-74A45E79B756}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F191BFDF-DBB7-4005-B5C5-FDF23503F2B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F191BFDF-DBB7-4005-B5C5-FDF23503F2B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F191BFDF-DBB7-4005-B5C5-FDF23503F2B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F191BFDF-DBB7-4005-B5C5-FDF23503F2B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09FAE419-5C75-4086-A2D2-450FFE8F127A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09FAE419-5C75-4086-A2D2-450FFE8F127A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09FAE419-5C75-4086-A2D2-450FFE8F127A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09FAE419-5C75-4086-A2D2-450FFE8F127A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CE52671-E809-47D9-A67F-90387FAB0E6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CE52671-E809-47D9-A67F-90387FAB0E6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CE52671-E809-47D9-A67F-90387FAB0E6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CE52671-E809-47D9-A67F-90387FAB0E6C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2826F3D3-D478-49BB-AA0A-74A45E79B756} = {1C9E4425-592C-4F0F-8439-F279A81BFC0C}
+		{F191BFDF-DBB7-4005-B5C5-FDF23503F2B5} = {1C9E4425-592C-4F0F-8439-F279A81BFC0C}
+		{09FAE419-5C75-4086-A2D2-450FFE8F127A} = {843F2047-6FCE-44C5-9C17-1B57EFC32A02}
+		{4CE52671-E809-47D9-A67F-90387FAB0E6C} = {9BDA86D3-F755-4218-826B-DBB2816CB1AC}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6E45456D-EF9A-4762-A7C5-2AD95ED85EC3}
+	EndGlobalSection
+EndGlobal
