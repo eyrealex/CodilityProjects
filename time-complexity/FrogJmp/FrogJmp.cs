@@ -11,18 +11,23 @@ namespace FrogJmp
             public static int CountJumps(int X, int Y, int D)
             {
 
-                // 2 WAYS TO COMPLETE
+                //********* First Way *********
+                /*int steps = 0; // counter for number of jumps/ steps
 
-                int steps = 0;
-
-                while (X < Y)
+                while (X < Y) //loop while the starting position is less than the position the frog wants to get to
                 {
 
-                    X = X + D;
-                    steps++;
+                    X += D; // Add the units per jump to the starting position;
+                    steps++; // add a counter to the jumps
                 }
 
-                return steps;
+                return steps; //return the amount of jumps when starting position is greater than destination*/
+
+                //********* Second Way *********
+                if (X >= Y) return 0; // if starting position is >= destination exit function
+                int diff = Y - X; //get total distance to cover
+                int jumps = (diff + D - 1) / D; // formula to find number of jumps, using - 1 as an edge case for a more robust output
+                return jumps; // return the amount of jumps needed
 
 
             }

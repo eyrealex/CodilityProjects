@@ -1,8 +1,8 @@
 ﻿using System;
 
-namespace binary_gap
+namespace BinaryGap
 {
-    public static class BinaryGap
+    public static class Program
     {
 
         public class BinaryGapFinder
