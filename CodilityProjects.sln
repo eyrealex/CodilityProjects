@@ -19,7 +19,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FrogJmp", "time-complexity\
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "counting-elements", "counting-elements", "{BBA731AE-6DF4-4C34-8DB5-0D9E8A3F9A6D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaxCounters", "counting-elements\MaxCounters\MaxCounters.csproj", "{307FA695-F054-4EF4-8543-87DA26A0AE6D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MaxCounters", "counting-elements\MaxCounters\MaxCounters.csproj", "{307FA695-F054-4EF4-8543-87DA26A0AE6D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "palindromes", "palindromes", "{0B7729C5-34E2-446E-A3ED-953AE23CBB71}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NumberPalindrome", "NumberPalindrome\NumberPalindrome.csproj", "{1F7967CE-7FA9-45A5-A94A-49BB3CBE5375}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringPalindrome", "StringPalindrome\StringPalindrome.csproj", "{67CF49C0-1FEB-4323-999A-384CAB50B32D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,6 +53,14 @@ Global
 		{307FA695-F054-4EF4-8543-87DA26A0AE6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{307FA695-F054-4EF4-8543-87DA26A0AE6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{307FA695-F054-4EF4-8543-87DA26A0AE6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F7967CE-7FA9-45A5-A94A-49BB3CBE5375}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F7967CE-7FA9-45A5-A94A-49BB3CBE5375}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F7967CE-7FA9-45A5-A94A-49BB3CBE5375}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F7967CE-7FA9-45A5-A94A-49BB3CBE5375}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67CF49C0-1FEB-4323-999A-384CAB50B32D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67CF49C0-1FEB-4323-999A-384CAB50B32D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67CF49C0-1FEB-4323-999A-384CAB50B32D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67CF49C0-1FEB-4323-999A-384CAB50B32D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -57,6 +71,8 @@ Global
 		{09FAE419-5C75-4086-A2D2-450FFE8F127A} = {843F2047-6FCE-44C5-9C17-1B57EFC32A02}
 		{4CE52671-E809-47D9-A67F-90387FAB0E6C} = {9BDA86D3-F755-4218-826B-DBB2816CB1AC}
 		{307FA695-F054-4EF4-8543-87DA26A0AE6D} = {BBA731AE-6DF4-4C34-8DB5-0D9E8A3F9A6D}
+		{1F7967CE-7FA9-45A5-A94A-49BB3CBE5375} = {0B7729C5-34E2-446E-A3ED-953AE23CBB71}
+		{67CF49C0-1FEB-4323-999A-384CAB50B32D} = {0B7729C5-34E2-446E-A3ED-953AE23CBB71}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6E45456D-EF9A-4762-A7C5-2AD95ED85EC3}
